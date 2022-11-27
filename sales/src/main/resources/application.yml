@@ -1,0 +1,6 @@
+
+
+sales:
+  controller:
+     path: "sales"
+     register-order: "order/register"
