@@ -5,6 +5,9 @@
     <modules>
         <module>sales</module>
         <module>shared</module>
+        <module>persistence</module>
+        <module>logistics</module>
+        <module>app</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -16,6 +19,12 @@
     <artifactId>lab-ecommerce-xyz</artifactId>
     <version>1.0.0</version>
 
+    <properties>
+        <java.version>11</java.version>
+        <app.name>lab-ecommerce-xyz</app.name>
+        <modelmapper.version>3.1.0</modelmapper.version>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -25,8 +34,12 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
         </dependency>
+        <dependency>
+            <groupId>org.modelmapper</groupId>
+            <artifactId>modelmapper</artifactId>
+            <version>${modelmapper.version}</version>
+        </dependency>
     </dependencies>
-
 
 
 </project>

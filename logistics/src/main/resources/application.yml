@@ -1,0 +1,10 @@
+
+server:
+  port: 8082
+spring:
+  web-flux:
+    base-path: "/logistic"
+
+persistence-delivery-url: "http://localhost:8081/persistence/delivery/"
+
+persistence-order-url: "http://localhost:8081/persistence/order/"

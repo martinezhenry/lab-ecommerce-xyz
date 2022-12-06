@@ -1,6 +1,17 @@
-
+persistence:
+  base-url: "http://localhost:8081/persistence"
 
 sales:
   controller:
-     path: "sales"
-     register-order: "order/register"
+    path: "sales/"
+    order-path: "/order"
+
+spring:
+  web-flux:
+    base-path: "/sales"
+  rabbitmq:
+    username: guest
+    password: guest
+
+
+persistence-order-url: "http://localhost:8081/persistence/order"

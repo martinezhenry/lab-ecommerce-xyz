@@ -1,13 +1,11 @@
-package com.hvs.lab;
+package com.hvs.lab.ecommerce.persistence;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SalesApplication {
+public class PersistenceApplication {
     public static void main(String[] args) {
-        SpringApplication.run(SalesApplication.class, args);
+        SpringApplication.run(PersistenceApplication.class, args);
     }
-
-
 }

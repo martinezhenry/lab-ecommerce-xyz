@@ -1,0 +1,4 @@
+sells:
+  controller:
+    path: sells
+    order-path: order

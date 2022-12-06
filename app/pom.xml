@@ -8,8 +8,9 @@
         <version>1.0.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
+    <packaging>ear</packaging>
+    <artifactId>app</artifactId>
 
-    <artifactId>sales</artifactId>
 
     <dependencies>
         <dependency>
@@ -18,26 +19,11 @@
             <version>1.0.0</version>
         </dependency>
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-amqp</artifactId>
+            <groupId>com.hvs.lab</groupId>
+            <artifactId>persistence</artifactId>
+            <version>1.0.0</version>
         </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-aop</artifactId>
-            <version>3.0.0</version>
-        </dependency>
-
     </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <version>2.7.2</version>
-            </plugin>
-        </plugins>
-    </build>
 
 
 </project>
